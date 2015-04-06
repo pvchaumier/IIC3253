@@ -1,6 +1,4 @@
-# IIC3253 - Criptografía y Seguridad Computacional, Pontificia Universidad Catolica
-
-Cryptography and security courses. 
+# Cryptography and security courses
 
 ## Tarea1
 
