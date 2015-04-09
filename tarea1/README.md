@@ -30,16 +30,16 @@ input -> plugboard -> disc1 -> disc2 -> disc3 -> reflector -> disc3 backward -> 
 ### CHOICES AND ASUMPTIONS :
 
 In the implementation, we make several asumptions/choices:
-    - the discs turn by adding the number of rotation (if A -> C and 
-       B -> Z... after the rotation, B -> D and C -> A ..-
-    - the punctuation signs are not interpreted and are deleted and won't
-       be rendered.
-    - all the letters of the input are lower cases
-    - the disc1 turns after each letter, the disc2 turns each 26 letters
-       and the disc3 turns after each 26*26 letters. I have read that some
-       implementation of the machine add a turn to the second disc when the 
-       third rotate but as I have seen a lot of sources not mentionning it, 
-       I choose not to implemente it.
+- the discs turn by adding the number of rotation (if A -> C and 
+   B -> Z... after the rotation, B -> D and C -> A ..-
+- the punctuation signs are not interpreted and are deleted and won't
+   be rendered.
+- all the letters of the input are lower cases
+- the disc1 turns after each letter, the disc2 turns each 26 letters
+   and the disc3 turns after each 26*26 letters. I have read that some
+   implementation of the machine add a turn to the second disc when the 
+   third rotate but as I have seen a lot of sources not mentionning it, 
+   I choose not to implemente it.
 
 ### HOW TO USE :
 - to test :
