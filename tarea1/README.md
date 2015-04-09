@@ -30,29 +30,23 @@ input -> plugboard -> disc1 -> disc2 -> disc3 -> reflector -> disc3 backward -> 
 ### CHOICES AND ASUMPTIONS :
 
 In the implementation, we make several asumptions/choices:
-- the discs turn by adding the number of rotation (if A -> C and 
-   B -> Z... after the rotation, B -> D and C -> A ..-
-- the punctuation signs are not interpreted and are deleted and won't
-   be rendered.
+- the discs turn by adding the number of rotation (if A -> C and B -> Z... after the rotation, B -> D and C -> A ..)
+- the punctuation signs are not interpreted and are deleted and won'tbe rendered.
 - all the letters of the input are lower cases
-- the disc1 turns after each letter, the disc2 turns each 26 letters
-   and the disc3 turns after each 26*26 letters. I have read that some
-   implementation of the machine add a turn to the second disc when the 
-   third rotate but as I have seen a lot of sources not mentionning it, 
-   I choose not to implemente it.
+- the disc1 turns after each letter, the disc2 turns each 26 letters and the disc3 turns after each 26*26 letters. I have read that some implementation of the machine add a turn to the second disc when the  third rotate but as I have seen a lot of sources not mentionning it, I choose not to implemente it.
 
 ### HOW TO USE :
 - to test :
-   * uncomment the unittest line
-   * launch the program without any cli argument
-   * command : python enigma.py
+  * uncomment the unittest line
+  * launch the program without any cli argument
+  * command : python enigma.py
 
 - to use :
-   * comment the unittest line if it is not
-   * launch the program with all the arguments as follow : 
-       python enigma.py path_disco1 path_disco2 path_disco3 path_plugboard 
-   * ex :
-   python enigma.py disco1.txt disco2.txt disco3.txt patch_panel_ejemplo.txt 
+  * comment the unittest line if it is not
+  * launch the program with all the arguments as follow : 
+    python enigma.py path_disco1 path_disco2 path_disco3 path_plugboard 
+  * ex :
+    python enigma.py disco1.txt disco2.txt disco3.txt patch_panel_ejemplo.txt 
 
 rq: in the assignment, it is said that the reflector is fixed and thus is 
     not one of the command line argument. To change it, one simply need to 
