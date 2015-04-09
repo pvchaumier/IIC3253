@@ -48,6 +48,4 @@ In the implementation, we make several asumptions/choices:
   * ex :
     python enigma.py disco1.txt disco2.txt disco3.txt patch_panel_ejemplo.txt 
 
-rq: in the assignment, it is said that the reflector is fixed and thus is 
-    not one of the command line argument. To change it, one simply need to 
-    change the path given to the function encrypt at the end of this file.
+rq: in the assignment, it is said that the reflector is fixed and thus is not one of the command line argument. To change it, one simply need to change the path given to the function encrypt at the end of this file.
