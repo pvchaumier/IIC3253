@@ -8,16 +8,16 @@ The goal of this homework is to reproduce the **enigma machine** in code.
 The implementation of the enigma machine uses the description that can be found on the [wikipedia website](http://en.wikipedia.org/wiki/Enigma_machine)
 
 The algorithm uses the following steps :
-- plugboard
-- disc 1
-- disc 2
-- disc 3
-- reflector
-- disc 3 backward
-- disc 2 backward
-- disc 1 backward
-- rotation of the discs
-- plugboard
+1. plugboard
+2. disc 1
+3. disc 2
+4. disc 3
+5. reflector
+6. disc 3 backward
+7. disc 2 backward
+8. disc 1 backward
+9. rotation of the discs
+10. plugboard
 
 or as an horizontal timeline :
 
