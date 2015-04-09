@@ -8,6 +8,7 @@ The goal of this homework is to reproduce the **enigma machine** in code.
 The implementation of the enigma machine uses the description that can be found on the [wikipedia website](http://en.wikipedia.org/wiki/Enigma_machine)
 
 The algorithm uses the following steps :
+
 1.  plugboard
 2.  disc 1
 3.  disc 2
