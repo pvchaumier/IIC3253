@@ -1,18 +1,13 @@
 # -*- coding:utf-8 -*
 
 """
-###############################################################################
-###############################################################################
-    
-    Author : Pierre-Victor Chaumier <pvchaumier@uc.cl>
-    Date : 6/04/2015
+AUTHOR : Pierre-Victor Chaumier <pvchaumier@uc.cl>
+DATE : 6/04/2015
 
-    IIC3253 - Cryptography and security
-    HOMEWORK N°1 - Enigma machine
+TITLE : IIC3253 - Cryptography and security
+        HOMEWORK N°1 - Enigma machine
 
-###############################################################################
-    
-    DESCRIPTION :
+DESCRIPTION :
 
     The goal of this homework is to reproduce the enigma machine in code.
    
@@ -36,16 +31,12 @@
     input -> plugboard -> disc1 -> disc2 -> disc3 -> reflector -> disc3 backward
         -> disc2 backward -> disc1 backward -> plugboard -> output
 
-###############################################################################
-
-    PRECAUTION :
+PRECAUTION :
 
     /!\ run this program in python3, using python2 will generate errors when 
     opening the files to read them (no encoding option in pyhton2).
 
-###############################################################################
-
-    CHOICES AND ASUMPTIONS :
+CHOICES AND ASUMPTIONS :
 
     In the implementation, we make several asumptions/choices:
         1) the discs turn by adding the number of rotation (if A -> C and 
@@ -59,9 +50,8 @@
            third rotate but as I have seen a lot of sources not mentionning it, 
            I choose not to implemente it.
 
-###############################################################################
+HOW TO USE :
 
-    HOW TO USE :
     1) to test :
        - uncomment the unittest line
        - launch the program without any cli argument
@@ -78,8 +68,6 @@
         not one of the command line argument. To change it, one simply need to 
         change the path given to the function encrypt at the end of this file.
 
-###############################################################################
-###############################################################################
 """
 
 import os
@@ -336,15 +324,7 @@ if __name__ == '__main__':
     parser = create_parser_cli()
     args = parser.parse_args()
     plain_text = input('plaintext > ')
-    cipher_text = encrypt(plain_text, args.disc1, args.disc2, args.disc3,
+    cipher_text = encrypt(plain_text.lower(), args.disc1, args.disc2, args.disc3,
             'reflector.txt', args.patch)
     print('ciphertext >', cipher_text)
-
-
-
-
-
-
-
-
 
