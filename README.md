@@ -1,5 +1,9 @@
 # Cryptography and security courses
 
-## Tarea1
+## Homework 1
 
-The purpose of this homework is to implement in python the enigma machina used by the German during WWII.
+Implementation in python of the enigma machina used by the German during WWII.
+
+## Homework 2
+
+Basic implementation of a decentralized and secure chat system.
